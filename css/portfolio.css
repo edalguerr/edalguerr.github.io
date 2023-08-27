@@ -52,6 +52,19 @@
   opacity: 1;
 }
 
+.portfolio-modal .modal-content ul {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  column-gap: 33px;
+  row-gap: 5px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.portfolio-modal .modal-content ul li {
+  width: fit-content;
+}
 .divider-custom {
   margin: 1.25rem 0 1.5rem;
   width: 100%;
